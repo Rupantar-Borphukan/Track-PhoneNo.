@@ -8,3 +8,5 @@ print(geocoder.description_for_number(Loc_num,"en"))
 from phonenumbers import carrier
 service_num = phonenumbers.parse(number,"RO")
 print(carrier.name_for_number(service_num,"en"))
+
+#    Please check in "num.py"
